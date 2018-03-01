@@ -18,6 +18,7 @@ foreach ($chnTab as $value) {
 echo $string;
 
 
+
 /* * ********************************************virgules */
 echo '<br>********************************************virgules';
   $string = "";
