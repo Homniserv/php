@@ -1,6 +1,8 @@
 <?php
 
-class Personne {
+include("animal.php");
+
+class Personne extends Animal {
 
     var $birthYear, $name;
 
@@ -16,11 +18,16 @@ class Personne {
         $name = $namee;
     }
 
-   public  function getNamee() {
+    public function getNamee() {
         return $this->name;
     }
 
     function getName2() {
         return $this->name;
     }
+
+    public function setSexe($sexx) {
+        $this->sex = $sexx;
+    }
+
 }
