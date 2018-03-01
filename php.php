@@ -37,6 +37,7 @@ echo $string;
 /* * Abstract Constructor  Inheritance */
 $personne = new Personne();
 $personne->setName("MOUEZA");
-$name = $personne->getName();
-echo "".$name;
+ $name2 = $personne->getName2();
+ $name = $personne->getNamee();
+//echo "".$name;
 

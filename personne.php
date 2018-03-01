@@ -16,8 +16,11 @@ class Personne {
         $name = $namee;
     }
 
-    function getName() {
-        return $name;
+   public  function getNamee() {
+        return $this->name;
     }
 
+    function getName2() {
+        return $this->name;
+    }
 }
